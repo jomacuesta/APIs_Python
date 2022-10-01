@@ -187,7 +187,7 @@ if __name__ == "__main__":
                 id_song = track['id']
                 try:
                     infosong = req.analyzeSong(id_song)
-                    entry_song = createDictSong(nameplaylist,added_at,popularity,name_song,infosong)
+                    #entry_song = createDictSong(nameplaylist,added_at,popularity,name_song,infosong)
                     song['features'] = infosong
                     time.sleep(3)  
 					
